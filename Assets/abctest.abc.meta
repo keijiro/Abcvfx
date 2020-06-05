@@ -14,7 +14,7 @@ ScriptedImporter:
     normals: 0
     tangents: 1
     cameraAspectRatio: 2
-    importVisibility: 1
+    importVisibility: 0
     scaleFactor: 1
     swapHandedness: 1
     flipFaces: 0
@@ -23,7 +23,7 @@ ScriptedImporter:
     importLinePolygon: 1
     importTrianglePolygon: 1
     importXform: 1
-    importCameras: 1
+    importCameras: 0
     importMeshes: 1
     importPoints: 0
   abcStartTime: 0.041666666666666664
