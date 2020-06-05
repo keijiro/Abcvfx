@@ -3,11 +3,14 @@
     {
       "name": "Keijiro",
       "url": "https://registry.npmjs.com",
-      "scopes": [ "jp.keijiro" ]
+      "scopes": [
+        "jp.keijiro"
+      ]
     }
   ],
   "dependencies": {
     "com.unity.formats.alembic": "2.0.1-preview.1",
+    "com.unity.render-pipelines.high-definition": "7.3.1",
     "com.unity.timeline": "1.2.14",
     "com.unity.ugui": "1.0.0",
     "jp.keijiro.test-assets": "1.0.1"
