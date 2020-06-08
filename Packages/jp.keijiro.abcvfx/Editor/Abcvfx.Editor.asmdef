@@ -1,0 +1,17 @@
+{
+    "name": "Abcvfx.Editor",
+    "references": [
+        "GUID:1a3abfb8ed04b33f397d7f5197c86e29"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Abcvfx.Runtime",
+    "references": [
+        "GUID:d04eb9c554ad44ceab303cecf0c0cf82",
+        "GUID:63ee2b3a69c095740bf1e4ff4d11f294"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "jp.keijiro.klak.hap",
+            "expression": "0.0.1",
+            "define": "ABCVFX_HAS_HAP"
+        }
+    ],
+    "noEngineReferences": false
+}
