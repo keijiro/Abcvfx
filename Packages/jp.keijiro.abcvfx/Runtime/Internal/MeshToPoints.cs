@@ -132,9 +132,9 @@ sealed class MeshToPoints
 
     void DeallocateConversionRTs()
     {
-        if (_converted.P != null) Object.Destroy(_converted.P);
-        if (_converted.N != null) Object.Destroy(_converted.N);
-        if (_converted.C != null) Object.Destroy(_converted.C);
+        DestroyObject(_converted.P);
+        DestroyObject(_converted.N);
+        DestroyObject(_converted.C);
         _converted = (null, null, null);
     }
 
@@ -149,6 +149,15 @@ sealed class MeshToPoints
         rt.enableRandomWrite = true;
         rt.Create();
         return rt;
+    }
+
+    static void DestroyObject(Object o)
+    {
+        if (o == null) return;
+        if (Application.isPlaying)
+            Object.Destroy(o);
+        else
+            Object.DestroyImmediate(o);
     }
 
     #endregion
