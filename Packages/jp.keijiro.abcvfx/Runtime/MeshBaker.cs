@@ -56,7 +56,8 @@ public sealed class MeshBaker : MonoBehaviour
 
     void LateUpdate()
     {
-        if (_meshFilter == null || SourceTexture == null) return;
+        if (_meshFilter == null || _meshFilter.sharedMesh == null) return;
+        if (SourceTexture == null) return;
 
         if (_converter == null) _converter = new MeshToPoints(_compute);
 
