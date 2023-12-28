@@ -10,8 +10,8 @@
   ],
   "dependencies": {
     "com.unity.formats.alembic": "2.3.4",
-    "com.unity.render-pipelines.high-definition": "14.0.9",
-    "com.unity.timeline": "1.7.6",
+    "com.unity.render-pipelines.high-definition": "16.0.4",
+    "com.unity.timeline": "1.8.6",
     "jp.keijiro.test-assets": "1.0.1",
     "jp.keijiro.vfxgraphassets": "1.3.0"
   }

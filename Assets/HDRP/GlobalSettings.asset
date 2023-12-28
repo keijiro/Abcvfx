@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781cc897cf8675041a751163b51f97dd, type: 3}
   m_Name: GlobalSettings
   m_EditorClassIdentifier: 
+  m_Settings:
+    m_SettingsList: []
+    m_RuntimeSettings: []
   m_DefaultVolumeProfile: {fileID: 11400000, guid: 872503aa381094dadb90a3ad6e9fae95,
     type: 2}
   m_LookDevVolumeProfile: {fileID: 11400000, guid: 872503aa381094dadb90a3ad6e9fae95,
     type: 2}
-  m_RenderingPathDefaultCameraFrameSettings:
+  m_ObsoleteRenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 140666621394765
-      data2: 4539628434053070872
+      data2: 4575659395735552024
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -29,9 +32,10 @@ MonoBehaviour:
     sssQualityMode: 0
     sssQualityLevel: 0
     sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
     msaaMode: 1
     materialQuality: 0
-  m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
+  m_ObsoleteRenderingPathDefaultBakedOrCustomReflectionFrameSettings:
     bitDatas:
       data1: 135310787769165
       data2: 4539628424389459992
@@ -44,9 +48,10 @@ MonoBehaviour:
     sssQualityMode: 0
     sssQualityLevel: 0
     sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
     msaaMode: 1
     materialQuality: 0
-  m_RenderingPathDefaultRealtimeReflectionFrameSettings:
+  m_ObsoleteRenderingPathDefaultRealtimeReflectionFrameSettings:
     bitDatas:
       data1: 139923425337165
       data2: 4539628424657895448
@@ -59,8 +64,59 @@ MonoBehaviour:
     sssQualityMode: 0
     sssQualityLevel: 0
     sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
     msaaMode: 1
     materialQuality: 0
+  m_RenderingPath:
+    m_Version: 0
+    m_Camera:
+      bitDatas:
+        data1: 140666621394765
+        data2: 4575659395735552024
+      lodBias: 1
+      lodBiasMode: 0
+      lodBiasQualityLevel: 0
+      maximumLODLevel: 0
+      maximumLODLevelMode: 0
+      maximumLODLevelQualityLevel: 0
+      sssQualityMode: 0
+      sssQualityLevel: 0
+      sssCustomSampleBudget: 20
+      sssCustomDownsampleSteps: 0
+      msaaMode: 1
+      materialQuality: 0
+    m_CustomOrBakedReflection:
+      bitDatas:
+        data1: 135310787769165
+        data2: 4539628424389459992
+      lodBias: 1
+      lodBiasMode: 0
+      lodBiasQualityLevel: 0
+      maximumLODLevel: 0
+      maximumLODLevelMode: 0
+      maximumLODLevelQualityLevel: 0
+      sssQualityMode: 0
+      sssQualityLevel: 0
+      sssCustomSampleBudget: 20
+      sssCustomDownsampleSteps: 0
+      msaaMode: 1
+      materialQuality: 0
+    m_RealtimeReflection:
+      bitDatas:
+        data1: 139923425337165
+        data2: 4539628424657895448
+      lodBias: 1
+      lodBiasMode: 0
+      lodBiasQualityLevel: 0
+      maximumLODLevel: 0
+      maximumLODLevelMode: 0
+      maximumLODLevelQualityLevel: 0
+      sssQualityMode: 0
+      sssQualityLevel: 0
+      sssCustomSampleBudget: 20
+      sssCustomDownsampleSteps: 0
+      msaaMode: 1
+      materialQuality: 0
   m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
     type: 2}
   m_RenderPipelineRayTracingResources: {fileID: 0}
@@ -69,6 +125,24 @@ MonoBehaviour:
   afterPostProcessBlursCustomPostProcesses: []
   afterPostProcessCustomPostProcesses: []
   beforeTAACustomPostProcesses: []
+  defaultRenderingLayerMask: 257
+  renderingLayerNames:
+  - Light Layer default
+  - Light Layer 1
+  - Light Layer 2
+  - Light Layer 3
+  - Light Layer 4
+  - Light Layer 5
+  - Light Layer 6
+  - Light Layer 7
+  - Decal Layer default
+  - Decal Layer 1
+  - Decal Layer 2
+  - Decal Layer 3
+  - Decal Layer 4
+  - Decal Layer 5
+  - Decal Layer 6
+  - Decal Layer 7
   lightLayerName0: Light Layer default
   lightLayerName1: Light Layer 1
   lightLayerName2: Light Layer 2
@@ -90,19 +164,36 @@ MonoBehaviour:
   m_ObsoleteDiffusionProfileSettingsList:
   - {fileID: 11400000, guid: 8f18d8c79d5ad89a0ab2d0e5dbafacbc, type: 2}
   - {fileID: 11400000, guid: 9f6f48b73460dba89a91037ed883129b, type: 2}
+  specularFade: 0
   rendererListCulling: 0
   DLSSProjectId: 000000
   useDLSSCustomProjectId: 0
   supportProbeVolumes: 0
-  supportRuntimeDebugDisplay: 1
   autoRegisterDiffusionProfiles: 0
+  analyticDerivativeEmulation: 0
+  analyticDerivativeDebugOutput: 0
   apvScenesData:
-    serializedBounds: []
-    serializedHasVolumes: []
-    serializedProfiles: []
-    serializedBakeSettings: []
-    serializedBakingSets: []
-    m_LightingScenario: Default
-  m_Version: 5
+    m_ObsoleteSerializedBakingSets: []
+    sceneToBakingSet:
+      m_Keys: []
+      m_Values: []
+    bakingSets: []
+    sceneBounds:
+      m_Keys: []
+      m_Values: []
+    hasProbeVolumes:
+      m_Keys: []
+      m_Values: 
+  m_Version: 10
+  m_ShaderStrippingSetting:
+    m_Version: 0
+    m_ExportShaderVariants: 1
+    m_ShaderVariantLogLevel: 0
+    m_StripRuntimeDebugShaders: 0
   m_ShaderVariantLogLevel: 0
+  m_SupportRuntimeDebugDisplay: 1
   m_ExportShaderVariants: 1
+  m_StripDebugVariants: 0
+  references:
+    version: 2
+    RefIds: []
