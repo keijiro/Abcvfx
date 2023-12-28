@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 501216272}
   - component: {fileID: 501216271}
   - component: {fileID: 501216270}
-  - component: {fileID: 501216269}
+  - component: {fileID: 501216274}
   m_Layer: 0
   m_Name: Trails
   m_TagString: Untagged
@@ -448,25 +448,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &501216269
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 501216268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1456ba2834674a4ccbc52c47bc83d86d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _positionMapProperty:
-    m_Name: PositionMap
-  _normalMapProperty:
-    m_Name: NormalMap
-  _colorMapProperty:
-    m_Name: ColorMap
-  Target: {fileID: 1903644378}
 --- !u!114 &501216270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -479,9 +460,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdafc37f32b176349b1684c4455b98e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ExecuteInEditor: 0
+  m_ExecuteInEditor: 1
   m_Bindings:
-  - {fileID: 501216269}
+  - {fileID: 501216274}
   m_VisualEffect: {fileID: 501216272}
 --- !u!73398921 &501216271
 VFXRenderer:
@@ -568,6 +549,12 @@ VisualEffect:
       - m_Value: {fileID: 0}
         m_Name: PositionMap
         m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: Source
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 258d58f14ddb5a544ba04a450bab9005, type: 3}
+        m_Name: Texture
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!4 &501216273
@@ -585,6 +572,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &501216274
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501216268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1629e29218534a1ca372a6ff0a75fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshProperty:
+    m_Name: Source
+  Target: {fileID: 1301282899}
 --- !u!1 &710821441
 GameObject:
   m_ObjectHideFlags: 0
