@@ -581,7 +581,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 501216268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1629e29218534a1ca372a6ff0a75fef, type: 3}
+  m_Script: {fileID: 11500000, guid: 863533e1203924549a27c5ca24ca4ef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _meshProperty:
@@ -620,8 +620,6 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: 3129513343425333339, guid: 7e2a830ae3d6cfda595e08d736b19551, type: 2}
-    value: {fileID: 0}
   - key: {fileID: -7038693314662382084, guid: 7e2a830ae3d6cfda595e08d736b19551, type: 2}
     value: {fileID: 710821441}
   m_ExposedReferences:
@@ -845,54 +843,6 @@ Transform:
   - {fileID: 142133064}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 30, y: -45, z: 0}
---- !u!1 &1903644377
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1903644379}
-  - component: {fileID: 1903644378}
-  m_Layer: 0
-  m_Name: Mesh Baker
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1903644378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903644377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5b13e05b6e00849cac9128807f07682, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _meshFilter: {fileID: 1301282899}
-  _texture: {fileID: 2800000, guid: 258d58f14ddb5a544ba04a450bab9005, type: 3}
-  _vertexCount: 32768
-  _compute: {fileID: 7200000, guid: a2932fdd586502f8a8e016fdde461ce6, type: 3}
---- !u!4 &1903644379
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903644377}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2069277728
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,5 +1069,4 @@ SceneRoots:
   - {fileID: 710821443}
   - {fileID: 217707386}
   - {fileID: 1301282897}
-  - {fileID: 1903644379}
   - {fileID: 501216273}
